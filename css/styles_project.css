@@ -207,7 +207,7 @@ footer h3 {
   font-size: 16px;
 }
 
-.links a:hover {
+.links a:hover, article a:hover {
   color: #6DB966;
   text-decoration: underline;
 }
