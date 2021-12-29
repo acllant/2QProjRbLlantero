@@ -61,6 +61,11 @@ header {
   animation: float 3s ease-in-out infinite;
 }
 
+.title a:hover {
+  color: #e9658d;
+  transition: 0.2s ease-in-out;
+}
+
 @keyframes float {
   0%{
     transform: translateY(0px);
