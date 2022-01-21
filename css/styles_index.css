@@ -115,7 +115,7 @@ audio {
 }
 
 .audio-source p {
-  width: 500px;
+  max-width: 500px;
   font-size: 11px;
   font-style: italic;
   align-self: center;
@@ -164,7 +164,8 @@ article {
 .info-text p {
   margin-bottom: 5px;;
   font-weight: 400;
-  width: 400px;
+  width: 120%;
+  max-width: 400px;
 }
 
 /* ============
@@ -174,7 +175,7 @@ article {
 .button {
   display: flex;
   justify-content: flex-end;
-  width: 32%;
+  width: 130px;
   height: 20px;
   padding: 0;
   margin-top: 12px;
@@ -207,7 +208,8 @@ article {
 }
 
 .image  {
-  width: 200px;
+  width: 40%;
+  max-width: 200px;
   margin: 0 40px;
   transform: translateY(0px);
   animation: float 3s ease-in-out infinite;

@@ -165,7 +165,7 @@ article {
 .article-content {
   width: 80%;
   margin: auto;
-  padding: 110px 0;
+  padding: 70px 0 110px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -176,9 +176,60 @@ article {
   width: 40%;
 }
 
-article img {
-  padding: 0 70px 0 20px;
+.image {
+  padding: 40px 70px 0 20px;
   width: 200px;
+}
+
+/* ============
+  social media links
+  ============= */
+
+#socials {
+  position: relative;
+}
+
+#socials li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#socials li, #socials a {
+  height: 39px;
+  display: block;
+}
+
+#facebook {
+  left: 0px;
+  width: 39px;
+  background: url('../images/icons-social.png') 0 0;
+}
+
+#instagram {
+  left: 55px;
+  width: 39px;
+  background: url('../images/icons-social.png') -60px 0;
+}
+
+#github {
+  left: 110px;
+  width: 39px;
+  background: url('../images/icons-social.png') -120px 0;
+}
+
+#facebook a:hover {
+  background: url('../images/icons-social.png') 0 -44px;
+}
+
+#instagram a:hover {
+  background: url('../images/icons-social.png') -60px -44px;
+}
+
+#github a:hover {
+  background: url('../images/icons-social.png') -120px -44px;
 }
 
 /* ============
